@@ -1,4 +1,5 @@
 import express from "express";
+import "./utils/prisma.util.js";
 import { SERVER_PORT } from "./constants/env.constant.js";
 
 const app = express();
